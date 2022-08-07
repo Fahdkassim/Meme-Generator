@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: dimgray;
+}
+.main-container {
+  width: 550px;
+  height: 550px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px black;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 550px;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+.nav-icon {
+  width: 31.31px;
+  height: 26.22px;
+  margin-left: 20px;
+}
+.nav-title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.07em;
+  color: #ffffff;
+  margin-right: auto;
+  margin-left: 7px;
+}
+.nav-project {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-right: 37px;
+}
+.meme-input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  gap: 17px;
+  margin-bottom: 15px;
+}
+.meme-p1 {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.meme-p2 {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.meme-btn {
+  width: 477px;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  border: none;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.07em;
+  color: #ffffff;
+  box-shadow: 2px 2px purple;
+}
+.meme-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.meme-image {
+  margin-top: 20px;
+  width: 477px;
+  height: 300px;
+  left: 36px;
+  top: 227px;
+  border-radius: 2px;
+}
+.top-text {
+  position: absolute;
+  font-family: sans-serif;
+  top: 35%;
+  color: white;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  text-transform: uppercase;
+  text-align: center;
+  width: 70%;
+}
+.bottom-text {
+  position: absolute;
+  font-family: sans-serif;
+  top: 67%;
+  color: white;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+}
