@@ -1,8 +1,6 @@
 import React from "react";
 
-
 export default function Meme() {
-
   const [meme, setMeme] = React.useState({
     topText: "",
     bottomText: "",
@@ -61,9 +59,11 @@ export default function Meme() {
       <button onClick={randomUrl} className="meme-btn">
         Get a new meme image 🖼
       </button>
-      <img className="meme-image" src={meme.imageUrl} />
-      <h1 className="top-text">{meme.topText}</h1>
-      <h1 className="bottom-text">{meme.bottomText}</h1>
+      <div className="img-container">
+        <h1 className="top-text">{meme.topText}</h1>
+        <img className="meme-image" src={meme.imageUrl} />
+        <h1 className="bottom-text">{meme.bottomText}</h1>
+      </div>
     </div>
   );
 }

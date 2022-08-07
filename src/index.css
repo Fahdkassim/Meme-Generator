@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0px;
+  margin: 20px;
   display: flex;
   justify-content: center;
   background-color: dimgray;
@@ -104,7 +104,7 @@ body {
 .top-text {
   position: absolute;
   font-family: sans-serif;
-  top: 33%;
+  top: 10%;
   color: white;
   text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
     -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
@@ -112,20 +112,19 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 400px;
- font-size: 20pt;
-  
+  font-size: 20pt;
 }
 .bottom-text {
   position: absolute;
   font-family: sans-serif;
-  bottom: 17%;
+  bottom: 5%;
   color: white;
   text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
     -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
     2px 2px 5px #000;
   text-transform: uppercase;
   text-align: center;
-  width:400px;;
+  width: 400px;
   font-size: 20pt;
 }
 @media (width < 550px) {
@@ -147,10 +146,13 @@ body {
     font-size: medium;
     margin-bottom: 0%;
     width: 50%;
-  }
-  .bottom-text {
-    font-size: medium;
-    bottom: 35%;
-    width: 50%;
-  }
+}
+}
+.img-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ overflow-wrap:break-word;
 }
